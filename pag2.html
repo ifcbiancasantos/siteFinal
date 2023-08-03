@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/p1.css">
+    <link rel="stylesheet" href="css/fotter.css">
+    <title>Menu</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Progtion</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">O que é progamação?</a></li>
+                    <li class="nav-item"><a href="pag3.html" class="nav-link">Por onde começar?</a></li>
+                    <li class="nav-item"><a href="pag4.html" class="nav-link"> #</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="cadastro.html">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="imgs/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">O que é progamação?</a></li>
+                <li class="nav-item"><a href="pag3.html" class="nav-link">Por onde começar?</a></li>
+                <li class="nav-item"><a href="pag4.html" class="nav-link"> #</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="index.html">Entrar</a></button>
+            </div>
+        </div>
+    </header>
+    <div class="content-body">
+        <div class="textbox">
+            <h1>O que é linguagem de programação?</h1>
+            <p>É por onde o hardware (máquina) e o programador se comunicam.
+                É uma linguagem formal que funciona por meio de uma série de instruções, símbolos, palavras-chave,
+                regras semânticas e sintáticas.</p>
+
+            <p>A linguagem de programação permite que um programador crie programas a partir de um conjunto de ordens,
+                ações consecutivas, dados e algoritmos.
+                Esse conjunto faz o controle do comportamento físico e lógico de uma máquina. Existem diversas
+                linguagens, pois também existem diversas formas de transmitir um mesmo comando para alcançar um mesmo
+                objetivo. </p>
+
+            <p>Nos dois casos, ocorreram instruções tanto do gestor da empresa quanto do professor.
+                E ambos esperam que os essas mesmas ordens sejam cumpridas da forma como ela foram planejadas, sem
+                desvios de finalidade ou de objetivo.</p>
+
+            <p> Programar é basicamente isso. Só que não se envolvendo diretamente com pessoas, mas com códigos e
+                linguagens de programação que comandam o
+                funcionamento de diversas funções em computadores, dispositivos móveis, softwares, jogos eletrônicos,
+                aplicativos, aparelhos eletrônicos e até mesmo robôs.</p>
+
+            <h1>Exemplos de linguagens de programação</h1>
+
+            <p>Possivelmente você já ouviu falar de várias. No começo deste post existe uma imagem com algumas delas.
+                Javascript, C++, Ruby, PHP, Python, Java, C e C# são exemplos de linguagens de programação.</p>
+
+            <p>Existem alguns pontos iniciais importantes quanto a esse pequeno, porém popular, conjunto de linguagens.
+                Javascript e Java são duas linguagens diferentes. Assim como C, C++ e C# (lê-se: c sharp) também são.
+            </p>
+
+            <p>Algumas linguagens do mundo de TI não são linguagens de programação, como HTML e CSS. Elas são usadas
+                para estruturação e estilização, respectivamente, de uma página web, .
+                Vamos ver os detalhes mais para frente, mas, por ora, é importante já saber alguns exemplos de
+                linguagens de programação.</p>
+
+            <h1>Curiosidade: Quantas linguagens de programação existem no total?</h1>
+            <p>Segundo a Universia.net, uma rede universitária que conta com a participação de instituições espalhadas
+                pela América, existem cerca de 1300 linguagens de programação ao todo.
+                De todo modo, muitas delas não são tão utilizadas, sendo assim, a maior concentração de programadores se
+                dão entre linguagens como JavaScript, SQL, Python, TypeScript, Java, Bash/Shell, PHP, C#, C++ e Ruby.</p>
+        </div>
+        <div class="imgbox">
+            <img src="imgs/undraw_proud_coder_re_exuy.svg" class="Imgpag2">
+        </div>
+    </div>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <img src="imgs/undraw_programmer_re_owql.svg" width="30%" height="25%" alt="">
+                <p>O resultado do programa é relativo o nível de conhecimento do programador.</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Tech</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Adventures</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Music</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Products</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Meu git</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Desktop</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Cloud</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Subscribe</h3>
+
+                <p>
+                    Enter your e-mail to get notified about
+                    our news solutions
+                </p>
+                App
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

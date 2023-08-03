@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/p1.css">
+    <link rel="stylesheet" href="css/fotter.css">
+    <title>Menu</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Progtion</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">O que é programação?</a></li>
+                    <li class="nav-item"><a href="pag2.html" class="nav-link">Linguagem</a></li>
+                    <li class="nav-item"><a href="pag4.html" class="nav-link">#</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="index.html">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="imgs/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">O que é programação?</a></li>
+                <li class="nav-item"><a href="pag2.html" class="nav-link">Linguagem</a></li>
+                <li class="nav-item"><a href="pag4.html" class="nav-link">#</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="cadastro.html">Entrar</a></button>
+            </div>
+        </div>
+    </header>
+    <div class="content-body">
+        <div class="textbox">
+            <h1>Por onde começar a estudar programação?</h1>
+
+            <p>Numa empresa, não são incomuns situações deste tipo: “fulano, preciso que você faça isso e me entregue os
+                relatórios até tal hora”.
+                Já num ambiente escolar, é comum ver o professor falar com os alunos desta forma: “leiam a página tal e
+                depois completem o exercício”. </p>
+
+            <h2>Lógica de programação</h2>
+            <p>Na programação, a lógica é fundamental. A partir dela, podemos compreender e dividir um problema em
+                partes menores e mais simples de serem solucionadas. Dessa forma, podemos codificar instruções mais
+                assertivas aos quais a aplicação deverá seguir.</p>
+
+
+            <h2>Algoritmos</h2>
+
+            <p> Os algoritmos são instituições que devem ser seguidas por uma aplicação informatizada. Essas instruções
+                podem variar de acordo com o problema a ser resolvido e a lógica utilizada.</p>
+
+            <p> Aprender sobre algoritmos e as diferentes formas de implementá-los não só ampliará seus conhecimentos
+                sobre construção de código, mas também lhe dará um repertório de soluções que podem ser usadas para
+                diferentes tipos de problemas. </p>
+
+            <h2>Paradigmas de programação</h2>
+
+            <p>Os paradigmas são uma metodologia de solução de problemas. Para exemplificar, pense no cenário em que
+                você precisa se deslocar de sua casa até algum outro lugar. Para isso, existem diversas opções de
+                transporte, como o público, privado, de bicicleta e até mesmo a pé. /p>
+
+            <p>São diferentes formas de resolver o mesmo problema, porém algumas demandam mais esforço que outras. O
+                mesmo ocorre com os paradigmas de programação, que podem ser implementados em diferentes linguagens.
+                Aprender diferentes métodos aumentará o leque de soluções para os problemas e agilizará o
+                desenvolvimento do código. </p>
+
+            <h2>Comece com uma linguagem de programação fácil</h2>
+
+            <p>O mercado oferece uma diversidade de linguagens de programação, com diferentes finalidades e graus de
+                complexidade. Por isso, inicialmente, opte por uma menos complexa, a fim de conseguir aprender não só
+                lógica de programação, mas as particularidades da tecnologia. </p>
+
+            <p> Uma boa opção para quem está começando é o Python. Com uma estrutura simples de ser compreendida, o
+                Python possibilita a construção de diferentes tipos de aplicações e ainda conta com uma variedade de
+                recursos.</p>
+            <p>O HTML, apesar de não ser uma linguagem de programação e sim de marcação, também é uma possibilidade para
+                quem está iniciando. Com ele, você poderá aprender mais sobre a base dos sites que formam a internet.
+            </p>
+            <h2> Escolha um editor e uma IDE (ambiente de desenvolvimento)</h2>
+            <p> Os editores de código são programas usados para a escrita de instruções que a aplicação deverá seguir.
+                Já as IDE’s (Ambiente de Desenvolvimento Integrado) também contam com um editor, mas possuem recursos
+                extras, como compiladores, terminais, verificadores de sintaxe, entre outros.</p>
+
+            <p>Para escolher o editor ou IDE ideal, verifique quais serão os recursos necessários e os requisitos que a
+                tecnologia escolhida necessita. O mercado disponibiliza várias opções, pagas e gratuitas, como o
+                Notepad++, Sublime Text, VS Code, entre outros. </p>
+
+            <p>Antes de prosseguir, veja mais detalhes da formação em Desenvolvimento Web da Trybe. A empresa é hoje uma
+                das melhores opções para quem deseja ter uma carreira tech. Confira mais detalhes abaixo.
+
+            </p>
+
+
+        </div>
+        <div class="imgbox">
+            <img src="imgs/undraw_programming_re_kg9v.svg" class="programação">
+        </div>
+    </div>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <img src="imgs/undraw_programmer_re_owql.svg" width="30%" height="25%" alt="">
+                <p>O resultado do programa é relativo o nível de conhecimento do programador.</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Tech</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Adventures</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Music</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Products</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Meu git</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Desktop</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Cloud</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Subscribe</h3>
+
+                <p>
+                    Enter your e-mail to get notified about
+                    our news solutions
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
