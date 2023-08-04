@@ -107,9 +107,8 @@ header {
 }
 
 .anc1{
-  width: 550px;
-  height: 500px;
-
+  width: 150px;
+  height: 100px;
 }
 .content-body4 {
   margin: 500px;
@@ -120,6 +119,7 @@ header {
   margin-top: 0%;
   margin-bottom: 0%;
   margin: 0px;
+  padding: 50px;
 }
 
 /* Login*/
