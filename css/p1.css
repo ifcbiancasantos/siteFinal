@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px;
+  margin: 150px;
 }
 
 .content-body .textbox {
@@ -35,16 +35,21 @@
   flex-grow: 1;
   padding-right: 50px;
 }
-
+/*pag2*/
 .Imgpag2 {
   display: block;
   margin: auto;
-
 }
 
 h2{
   color: #383584f1;
-  padding: 5px;
+  padding: 5px;.content-body {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px;
+  }
 }
 
 h1 {
@@ -104,6 +109,16 @@ header {
   font-size: 1.15rem;
   color: #fff;
   font-weight: 400;
+}
+/*pag4*/
+
+.content-body_pag4 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 150px;
+  display: grid;
 }
 
 .anc1{
