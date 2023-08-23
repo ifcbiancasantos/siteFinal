@@ -18,7 +18,7 @@
   position: relative;
   max-width: 100%;
   padding-right: 50px;
-
+  
 }
 
 .logo {
@@ -35,13 +35,7 @@
   flex-grow: 1;
   padding-right: 50px;
 }
-
-/*pag2*/
-.Imgpag2 {
-  display: block;
-  margin: auto;
-}
-
+  
 h2{
   color: #383584f1;
   padding: 5px;.content-by {
@@ -112,32 +106,6 @@ header {
   color: #fff;
   font-weight: 400;
 }
-/*pag4*/
-
-.content-body_pag4 {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 150px;
-  display: grid;
-}
-
-.anc1{
-  width: 150px;
-  height: 100px;
-}
-.content-body4 {
-  margin: 500px;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-.textbox1 {
-  margin-top: 0%;
-  margin-bottom: 0%;
-  margin: 0px;
-  padding: 50px;
-}
 
 /* Login*/
 
@@ -153,7 +121,15 @@ header {
   color: #fff;
   font-weight: 500;
   font-size: 1.1rem;
-}
+}.imgpag3{
+  display: grid;
+  grid-template-columns:1fr;
+  margin: 250px;
+  margin-top: 10%;
+  margin-bottom: 150px;
+  width: 250px;
+  height: 250px;
+ }
 
 .mobile-menu-icon {
   display: none;
@@ -162,8 +138,24 @@ header {
 .mobile-menu {
   display: none;
 }
+.box-link{
+  display: inline-block;
+  position: relative;
+}
 
+.box-link figcaption {
+  position: absolute;
+  top: 145px;
+  font-size: 25px;
+  color: black;
+}
 
+.box-link img{
+  display: inline-block;
+  position: relative;
+  height: 250px;
+  width: 350px;
+}
 
 @media screen and (max-width: 730px) {
   .nav-bar {
@@ -212,4 +204,29 @@ header {
   .open {
     display: block;
   }
+  @media (max-width: 730px) {
+    .content-body {
+      padding: 1rem;
+      flex-direction: column;
+      margin: 50px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    p {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+    }
+  }
+
 }
